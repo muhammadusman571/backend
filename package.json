@@ -1,0 +1,20 @@
+{
+  "name": "backend_assessment-main",
+  "version": "1.0.0",
+  "description": "## Overview: The aim of this assessment is to evaluate your backend skills using NodeJS and by adopting a microservice architecture. The assessment will primarily be a web app where you'll be exposing API endpoints, interacting with Database via ORM, producing and consuming event via Kafka.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "faker": "^5.5.3",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.3"
+  }
+}
